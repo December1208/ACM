@@ -1,5 +1,3 @@
 __pycache__/
 .idea/
 .cache/
-generate_log.py
-test.py
