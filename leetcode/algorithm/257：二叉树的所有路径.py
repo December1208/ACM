@@ -9,6 +9,9 @@ class TreeNode:
 
 
 class Solution:
+    """
+    给定一个二叉树，返回所有从根节点到叶子节点的路径。
+    """
     def binaryTreePaths(self, root: TreeNode) -> List[str]:
 
         def get_path(root: TreeNode, path: str):

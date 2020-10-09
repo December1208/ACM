@@ -6,6 +6,9 @@ class TreeNode:
 
 
 class Solution:
+    """
+    翻转一棵二叉树
+    """
     def invertTree(self, root: TreeNode) -> TreeNode:
         def reverse_tree(node: TreeNode):
             if node is None:

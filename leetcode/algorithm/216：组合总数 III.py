@@ -3,6 +3,9 @@ import copy
 
 
 class Solution:
+    """
+    找出所有相加之和为 n 的 k 个数的组合。组合中只允许含有 1 - 9 的正整数，并且每种组合中不存在重复的数字。
+    """
     def combinationSum3(self, k: int, n: int) -> List[List[int]]:
         result = []
         temp = []

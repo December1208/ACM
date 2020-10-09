@@ -4,8 +4,10 @@ from typing import List
 
 class Solution:
     """
-        回溯+剪枝
-        首先先按照没有重复数字时进行全排列，然后再对于重复的数字进行剪枝
+    给定一个可包含重复数字的序列，返回所有不重复的全排列。
+
+    回溯+剪枝
+    首先先按照没有重复数字时进行全排列，然后再对于重复的数字进行剪枝
     """
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:
         nums = sorted(nums)

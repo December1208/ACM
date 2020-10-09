@@ -10,6 +10,9 @@ class TreeNode:
 
 
 class Solution:
+    """
+    给定一个二叉树，返回它的 后序 遍历.
+    """
     def postorderTraversal(self, root: TreeNode) -> List[int]:
         if root is None:
             return list()

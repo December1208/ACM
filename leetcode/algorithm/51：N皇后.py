@@ -3,6 +3,8 @@ from typing import List
 
 class Solution:
     """
+    n 皇后问题研究的是如何将 n 个皇后放置在 n×n 的棋盘上，并且使皇后彼此之间不能相互攻击。
+
     执行用时：52 ms, 在所有 Python3 提交中击败了97.02%的用户
     内存消耗：13.9 MB, 在所有 Python3 提交中击败了77.56%的用户
     """
