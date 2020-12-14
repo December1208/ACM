@@ -7,5 +7,5 @@ class Node:
 
 
 class Solution:
-    pass
 
+    pass
