@@ -2,7 +2,7 @@ class Solution:
 
     def binary_search(self, nums, target):
         """
-            二分查找，查找区间[0:len(nums)),即左闭由开
+            二分查找，查找区间[0:len(nums)),即左闭右开
         :param nums:
         :param target:
         :return:
