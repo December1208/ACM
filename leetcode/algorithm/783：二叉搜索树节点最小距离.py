@@ -23,4 +23,4 @@ class Solution:
         else:
             self.result = min(self.result, root.val - self.value)
             self.value = root.val
-        self.dfs(root.left)
+        self.dfs(root.right)
