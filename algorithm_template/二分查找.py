@@ -7,16 +7,15 @@ class Solution:
         :param target:
         :return:
         """
-        left = 0
-        right = len(nums)
-        while left < right:
+        left, right = 0, len(nums) - 1
+        while left <= right:
             mid = (right + left) // 2
             if nums[mid] == target:
                 return mid
             elif nums[mid] < target:
                 left = mid + 1
             elif nums[mid] > target:
-                right = mid
+                right = mid + 1
         return -1
 
     def binary_search_first(self, nums, target):
